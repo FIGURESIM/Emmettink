@@ -80,7 +80,6 @@ gap: 0;
     margin-right: 5%;
     max-height: 500px;
     max-width: 500px;
-    size: contain;
 }
 h1 {
     font-weight: lighter;
@@ -225,8 +224,8 @@ footer a:hover {
     }
     .hero img {
         display: none;
-        margin-top: none;
-        margin-bottom: none;
+        margin-top: 0;
+        margin-bottom: 0;
     }
     h1 {
         margin-left: 0;
