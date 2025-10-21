@@ -145,19 +145,6 @@ footer {
     align-items: center;
     border-top: 1px solid #ccc;
 }
-footer img{
-    width: 50px;
-    height: 50px;
-}
-footer content {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    margin-left: 20px;
-    margin-right: 20px;
-    align-items: center;
-    justify-content: space-between;
-}
 footer a {
     color: #565656;
 }
@@ -175,6 +162,19 @@ p {
 }
 footer a:hover {
     color: black;
+}
+.footer-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-content img {
+    width: 50px;
+    height: 50px;
 }
 @media (max-width: 768px) {
     header {
