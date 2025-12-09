@@ -418,7 +418,7 @@ label {
     text-align: center;
     margin: auto;
 }
-video {
+iframe, video {
     width: 90%;
     height: auto;
     float: right;
