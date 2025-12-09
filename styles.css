@@ -418,9 +418,9 @@ label {
     text-align: center;
     margin: auto;
 }
-iframe, video {
+iframe {
     width: 90%;
-    height: auto;
+    height: 90%;
     float: right;
     border-radius: 10px;
 }
@@ -525,6 +525,12 @@ iframe, video {
         flex-direction: column;
         padding: 10px 20px;
         margin-top: -50px;
+    }
+    footer {
+        height: auto;
+        flex-direction: column;
+        padding: 10px 20px;
+        margin-top: 20%;
     }
 
     nav {
@@ -712,10 +718,11 @@ iframe, video {
   }
     .scroll-btn.btn-bottom { right: 64px; }
     
-    video {
+    iframe {
         width: 100%;
-        height: auto;
+        height: 150%;
         float: none;
+        margin-bottom: 0;
     }
     .featuredcontent .sticker figcaption {
         font-size: 20px;
